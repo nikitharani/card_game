@@ -3,11 +3,28 @@
     <head>
         <title>Card Game</title>
         <!-- <link href="index.css"/> -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+        <!-- Custom Fonts -->
+        <link href="vendor/fontawesome-free/css/all.min.css"  type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+             type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" >
+
+
         <link rel="stylesheet" href="index.css">
 
     </head>
     <body>
         <!-- <img src='' id='cards'/> -->
+        <button  id="btn-shuf"><i class="fa fa-random " aria-hidden="true"></i></button>
+        <button  id="btn-draw">Draw All Cards</button>
+
+        <!-- <div class="btn-shuf"><i class="fa fa-random " aria-hidden="true"></i></div> -->
+
         <div class="results">
             <div id="prev_card" class="result">
                 <p>Start the Game </p>
@@ -18,19 +35,37 @@
             </div>
         </div>
         
-        <div class="buttons">
-            <!-- <button id="prev_btn">Get Cat</button> -->
-            
-            <button id="present_btn">Get Card</button>
-        </div>
-        
-            <div id="name">
+        <div class="names">
+            <div id="prev_names">
 
             </div>
+            <div id="present_names">
+
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button id="prev_btn">Restart</button>
+            
+            <button id="present_btn">Draw Card</button>
+        </div>
+        <div id="snaps">
+            <!-- <p id="snap_val"></p>
+            <p id="snap_suit"></p> -->
+        </div>
+        <div>
+            <p id="summary"></p>
+        </div>
+        <div id="count">
+        </div>
+        
+            
         
 
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="index.js"></script>
 
     </body>

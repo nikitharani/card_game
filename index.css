@@ -33,10 +33,23 @@ body {
 	width: 100%;
 }
 
-/* .buttons {
+ .buttons {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+} 
+
+.names{
+    /* text-align: center; */
+    display: flex;
+	/* align-items: center; */
+    /* justify-content: left; */
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+/* #prev_names,#present_names{
+    text-align: left; 
 } */
 
 button {

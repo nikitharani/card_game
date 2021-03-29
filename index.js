@@ -50,8 +50,8 @@ function getRandomCard() {
     }
     
     present_card.innerHTML = `<img src=${cards_data.cards[current_card_number].image} alt="card" />`;
-    present_names.innerHTML = `<p>Value: ${cards_data.cards[current_card_number].value}  </p>` ;
-    present_names.innerHTML +=`<p>Suit: ${cards_data.cards[current_card_number].suit}  </p>`;
+    present_names.innerHTML = `<p>Value: ${cards_data.cards[current_card_number].value } and Suit: ${cards_data.cards[current_card_number].suit}  </p>` ;
+    // present_names.innerHTML +=`<p>Suit: ${cards_data.cards[current_card_number].suit}  </p>`;
 
     if( current_card_number >0){
         snaps.innerHTML ='';
@@ -127,6 +127,8 @@ async function get52CardsDataFromAPI()
         console.log(cards_data);
 
     })
+    return cards_data; //only for testing
+
 }
 
 //Draw all cards
@@ -170,7 +172,7 @@ function getSummary(){
       //write innerHtml
        
       var summary = document.getElementById('summary');
-      summary.innerHTML = `<p>Value matches : ${total_value_matches} and Suit matches:${total_suit_matches} </p>`;
+      summary.innerHTML = `<p>Value matches:${total_value_matches} and Suit matches:${total_suit_matches} </p>`;
     //   document.getElementById('summary').style.visibility= "visible";
 
 }

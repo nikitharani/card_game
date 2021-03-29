@@ -19,45 +19,78 @@
 
     </head>
     <body>
-        <!-- <img src='' id='cards'/> -->
-        <button  id="btn-shuf"><i class="fa fa-random " aria-hidden="true"></i></button>
-        <button  id="btn-draw">Draw All Cards</button>
+        <div class="container">
+            <h1 >Pick a Card!</h1>
+            <div class="row">
+                <div class="col">        
+                    <button id="btn-shuf">Shuffel Cards</button>        
+                    <button id="btn-draw">Draw All Cards</button>
+                </div>
+        
+            </div>
+            <div class="row">
+                <div class="results ml-3 md-6">
+                    <div id="prev_card" class="result">
+                        <p>Start the Game </p>
+                    </div>
+                    <div id="present_card" class="result md-6">
+                        <p>Random card Placeholder</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="names">
+                    <div class="ml-5" id="prev_names">
+        
+                    </div>
+                    <div class=""  id="present_names">
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="buttons ml-3">
+                    <button id="prev_btn">Restart</button>
+                    
+                    <button id="present_btn">Draw Card</button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div id="snaps">
+                    <!-- <p id="snap_val"></p>
+                    <p id="snap_suit"></p> -->
+                </div>
+
+            </div>
+            <div class="row summ">
+                <div>
+                    <p id="summary"></p>
+                </div>
+                
+            </div>
+            <div class="row ">
+                <div id="count">
+                </div>
+
+            </div>
+
+        
+        </div>
+        
+    
 
         <!-- <div class="btn-shuf"><i class="fa fa-random " aria-hidden="true"></i></div> -->
 
-        <div class="results">
-            <div id="prev_card" class="result">
-                <p>Start the Game </p>
-            </div>
-            <div id="present_card" class="result">
-                <p>Random card Placeholder</p>
-                
-            </div>
-        </div>
         
-        <div class="names">
-            <div id="prev_names">
-
-            </div>
-            <div id="present_names">
-
-            </div>
-        </div>
         
-        <div class="buttons">
-            <button id="prev_btn">Restart</button>
-            
-            <button id="present_btn">Draw Card</button>
-        </div>
-        <div id="snaps">
-            <!-- <p id="snap_val"></p>
-            <p id="snap_suit"></p> -->
-        </div>
-        <div>
-            <p id="summary"></p>
-        </div>
-        <div id="count">
-        </div>
+        
+        
+        
+        
+        
         
             
         

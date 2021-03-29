@@ -40,18 +40,17 @@ body {
 } 
 
 .names{
-    /* text-align: center; */
     display: flex;
-	/* align-items: center; */
-    /* justify-content: left; */
-    justify-content: space-evenly;
-    flex-direction: row;
+	/* align-items: center;
+	justify-content: center; */
 
 }
 /* #prev_names,#present_names{
     text-align: left; 
 } */
-
+#present_names{
+    margin-left:140px!important;
+}
 button {
 	background-color: darksalmon;
 	border: 0;
@@ -73,6 +72,49 @@ button:focus {
 
 
 
-h6{
-    color:black;
+.summ{
+    text-align: center;
+    margin-left: 18%;
 }
+
+.text-success{
+    font-weight: 500;
+    font-size: 20px;
+}
+#count{
+/* color:green; */
+text-align: center;
+    margin-left: 28%;
+}
+
+#snaps{
+    /* color:green; */
+text-align: center;
+    margin-left: 25%;
+
+}
+
+h1{
+    margin-left: 20%;
+}
+
+/* @media (min-width: 355px) and (max-width: 412px){
+h1{
+    margin-top: 250%!important;
+}
+.results, .buttons{
+    display: flex;
+    flex-direction: column;
+
+}
+#count{
+margin-left: 45%;
+}
+#summary{
+    margin-left: -18%;
+
+}
+#snaps{
+    margin-left: 38%;
+}
+} */

@@ -20,7 +20,7 @@ getDrawCards-The function will draw the remaining cards from the deck.
 getSummary- This function has data about matching cards value and suit and display the count of the value and suit.
 
 
-##Demo of the Site
+## Demo of the Site
 
 https://simplecards-game.herokuapp.com/
 
